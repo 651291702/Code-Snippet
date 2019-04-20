@@ -25,6 +25,7 @@
 
 3. 添加 → 脚本名（选择脚本路径）→ 脚本参数（该npm文件的位置）
 
-   如  脚本名：`C:\Users\username\Pictures\my_wallpaper\update_wallpaper.bat`
+   如  脚本名：`C:\Users\${username}\Pictures\my_wallpaper\update_wallpaper.bat`
 
-   ​     脚本参数：`C:\Users\username\Pictures\my_wallpaper`
+   ​     脚本参数：`C:\Users\${username}\Pictures\my_wallpaper`
+

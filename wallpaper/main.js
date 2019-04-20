@@ -13,7 +13,7 @@ const IMGRequire = {
 
 function cpFilesFromSource(oldDir, newDir, imgReqObj) {
   if(!fs.existsSync(newDir)) 
-    fs.mkdir(newDir)
+    fs.mkdirSync(newDir)
   // 获取所有源路径下图片
   let arr = fs.readdirSync(oldDir)
   arr.forEach( file => {
