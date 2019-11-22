@@ -11,7 +11,6 @@
 #### 执行顺序
 
 1. npm install 
-2. 修改`main.js`中的变量`USERNAME`, 填入**用户名**
 3. npm start
 4. 设置 → 背景 → 幻灯片放映 → 选择 `npm文件中的images`
 
@@ -23,9 +22,9 @@
 
 2. 用户配置  → Windows设置 → 脚本（登录/注销） → 注销
 
-3. 添加 → 脚本名（选择脚本路径）→ 脚本参数（该npm文件的位置）
+3. 添加 → 脚本名（选择脚本路径）→ 脚本参数（空）
 
    如  脚本名：`C:\Users\${username}\Pictures\my_wallpaper\update_wallpaper.bat`
 
-   ​     脚本参数：`C:\Users\${username}\Pictures\my_wallpaper`
+   ​     脚本参数：空
 

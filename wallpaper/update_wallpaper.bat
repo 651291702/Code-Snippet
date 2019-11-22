@@ -1,6 +1,5 @@
-set SCRIPT_PATH=%1%
-C:
-cd %SCRIPT_PATH%
+%~d0
+cd %~dp0
 npm start
 
 pause
